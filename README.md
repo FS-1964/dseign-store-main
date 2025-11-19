@@ -20,7 +20,7 @@ Welcome to Design Store, your cozy corner for delightful ecommerce experiences! 
 
 ## Installation
 
-Get started with Comfy Store in just a few simple steps:
+Get started with Design-Store in just a few simple steps:
 
 1. Clone the repository:
    `git clone https://github.com/FS-1964/dseign-store-main.git`
