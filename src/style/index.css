@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .aligning {
+    @apply mx-auto max-w-6xl px-2 sm:px-8;
+  }
+
+  .width {
+    width: calc(100vw - 8rem);
+    max-width: 66rem;
+  }
+}
+
+#root {
+  min-height: 100vh;
+
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+  @apply bg-neutral opacity-50;
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
+  @apply bg-primary opacity-100;
+}
+
+.banners article:nth-child(1),
+.banners article:nth-child(2),
+.banners article:nth-child(3),
+.banners article:nth-child(4) {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.banners article:nth-child(1) {
+  background-image: url('../assets/banner/banner3.jpg');
+}
+
+.banners article:nth-child(2) {
+  background-image: url('../assets/banner/banner1.jpg');
+}
+
+.banners article:nth-child(3) {
+  background-image: url('../assets/banner/banner2.jpg');
+}
+
+.banners article:nth-child(4) {
+  background-image: url('../assets/banner/banner4.jpg');
+}
+
+.cta {
+  background-image: url('../assets/cta/cta.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.scroll-button {
+  @apply h-10 w-10 z-10 p-2 right-5 bottom-20 rounded-full;
+}
+
+.progress-bar {
+  @apply absolute flex items-center justify-center w-8 h-8 hover:w-10 hover:h-10 left-0 top-0 translate-x-1 translate-y-1 hover:translate-x-0 hover:translate-y-0 bg-neutral-content hover:bg-neutral text-neutral hover:text-neutral-content rounded-full duration-200;
+}
