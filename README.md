@@ -1,5 +1,3 @@
-# Comfy Store
-
 Welcome to Design Store, your cozy corner for delightful ecommerce experiences! Developed with love using React and Vite, our platform offers a seamless shopping journey from start to finish.
 
 ## Key Features
