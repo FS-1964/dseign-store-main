@@ -37,6 +37,8 @@ Get started with Design-Store in just a few simple steps:
 
 ![Screenshot](/public/screen.png)
 
+## Live Demo
+
 
 
 ## License
