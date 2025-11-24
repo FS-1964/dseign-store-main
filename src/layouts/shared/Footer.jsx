@@ -19,19 +19,19 @@ const Footer = () => {
           </p>
           <div className='grid grid-flow-col gap-4 text-2xl mt-8 md:mt-0'>
             <Link
-              to='https://twitter.com/akaBaytar'
+              to='#'
               target='_blank'
               rel='noreferrer'>
               <FaXTwitter />
             </Link>
             <Link
-              to='https://github.com/akaBaytar'
+              to='#'
               target='_blank'
               rel='noreferrer'>
               <FaGithub />
             </Link>
             <Link
-              to='https://www.linkedin.com/in/akabaytar/'
+              to='#'
               target='_blank'
               rel='noreferrer'>
               <FaLinkedin />
