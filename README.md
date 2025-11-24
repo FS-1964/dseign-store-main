@@ -37,9 +37,7 @@ Get started with Design-Store in just a few simple steps:
 
 ![Screenshot](/public/screen.png)
 
-## Live Demo
 
-You can check out the [live demo](https://react-ecommerce-burakbilgili.vercel.app) on Vercel.
 
 ## License
 
