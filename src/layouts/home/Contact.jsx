@@ -33,7 +33,7 @@ const Contact = () => {
         <div className='md:text-end'>
           <h3 className='text-2xl font-semibold'>Need Help?</h3>
           <h3 className='text-2xl font-semibold tracking-wider'>
-            +(90) 212 33 44
+            +(90) 000000000
           </h3>
           <p className='text-[0.68rem] ml-1 opacity-50'>
             We are available 8am - 7pm

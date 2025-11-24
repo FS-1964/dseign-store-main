@@ -13,7 +13,7 @@ const Footer = () => {
             className='text-2xl font-bold btn btn-active'>
             C
           </Link>
-          <p className='font-semibold'>Comfy Store Ltd.</p>
+          <p className='font-semibold'>Store Ltd.</p>
           <p className='font-semibold'>
             Elevating comfort, redefining style since 1992
           </p>
